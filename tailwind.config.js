@@ -1,4 +1,15 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin')
+
+// Rotate X utilities
+const rotateX = plugin(function ({ addUtilities }) {
+  addUtilities({
+    '.-rotate-x-90': {
+      transform: 'rotateX(-90deg)',
+    },
+  })
+})
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -24,7 +35,10 @@ module.exports = {
         '2xl': '1201px',
         
       },
+      backgroundPosition: {
+        'bottom-4': 'top 4rem left 12rem',
+      }
     },
   },
-  plugins: [],
+  plugins: [rotateX],
 }
