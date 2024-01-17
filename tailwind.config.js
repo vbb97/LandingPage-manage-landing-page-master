@@ -38,7 +38,11 @@ module.exports = {
       backgroundPosition: {
         'bottom-4': 'top 4rem left 12rem',
         'left-4': 'top 2rem left 0',
+      },
+      backgroundImage: {
+        'overlay': 'linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8))',
       }
+
     },
   },
   plugins: [rotateX],
