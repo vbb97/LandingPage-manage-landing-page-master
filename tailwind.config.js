@@ -30,7 +30,8 @@ module.exports = {
         'sm': '320px',
         'md': '481px',
         '2md': '550px',
-        'lg': '720px',
+        'lg': '650px',
+        '2lg': '769px',
         'xl': '1025px',
         '2xl': '1201px',
         
@@ -41,8 +42,10 @@ module.exports = {
       },
       backgroundImage: {
         'overlay': 'linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .8))',
+      },
+      boxShadow: {
+        'red-shadow': ' 0px 4px 8px 0px rgba(243,96,60,1)',
       }
-
     },
   },
   plugins: [rotateX],
