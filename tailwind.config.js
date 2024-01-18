@@ -30,7 +30,8 @@ module.exports = {
         'sm': '320px',
         'md': '481px',
         '2md': '550px',
-        'lg': '720px',
+        'lg': '650px',
+        '2lg': '769px',
         'xl': '1025px',
         '2xl': '1201px',
         

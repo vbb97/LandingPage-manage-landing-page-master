@@ -4,8 +4,8 @@ export default function Secondary () {
     return (
         <section className="sm:px-3 sm:flex sm:flex-col sm:gap-12 sm:text-center">
             <div className="sm:px-2 sm:flex sm:flex-col sm:gap-4">
-                <h2 className="sm:text-3xl sm:font-black">What’s different about Manage?</h2>
-                <p className="sm:text-neutralDarkGrayishBlue sm:text-sm sm:leading-6">Manage provides all the functionality your team needs, without 
+                <h2 className="sm:text-2xl sm:font-black md:text-3xl">What’s different about Manage?</h2>
+                <p className="sm:text-neutralDarkGrayishBlue sm:text-sm sm:leading-6 md:text-lg">Manage provides all the functionality your team needs, without 
                 the complexity. Our software is tailor-made for modern digital 
                 product teams. </p>
             </div>
