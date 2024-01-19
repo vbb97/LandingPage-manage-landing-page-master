@@ -7,6 +7,7 @@ export default function SecondaryItem({number, title, text}) {
                     <h4 className="sm:text-primaryDarkBlue sm:text-sm sm:font-black md:text-lg">{title}</h4>
                 </div>
                 <p className="sm:text-neutralDarkGrayishBlue sm:text-start sm:text-sm sm:leading-6 md:text-base">{text}</p>
+                <p className="sm:text-neutralDarkGrayishBlue sm:text-start sm:text-sm sm:leading-6 md:text-base">{text}</p>
             </div>
         </div>
     )

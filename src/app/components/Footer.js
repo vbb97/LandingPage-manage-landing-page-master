@@ -20,9 +20,16 @@ export default function Footer() {
                     <li className="sm:list-none"><a className="sm:text-neutralVeryLightGray sm:text-sm sm:decoration-none md:text-lg" hrf="/">Pricing</a></li>
                     <li className="sm:list-none"><a className="sm:text-neutralVeryLightGray sm:text-sm sm:decoration-none md:text-lg" hrf="/">Products</a></li>
                     <li className="sm:list-none"><a className="sm:text-neutralVeryLightGray sm:text-sm sm:decoration-none md:text-lg" hrf="/">About Us</a></li>
+                    <li className="sm:list-none"><a className="sm:text-neutralVeryLightGray sm:text-sm sm:decoration-none md:text-lg" hrf="/">Home</a></li>
+                    <li className="sm:list-none"><a className="sm:text-neutralVeryLightGray sm:text-sm sm:decoration-none md:text-lg" hrf="/">Pricing</a></li>
+                    <li className="sm:list-none"><a className="sm:text-neutralVeryLightGray sm:text-sm sm:decoration-none md:text-lg" hrf="/">Products</a></li>
+                    <li className="sm:list-none"><a className="sm:text-neutralVeryLightGray sm:text-sm sm:decoration-none md:text-lg" hrf="/">About Us</a></li>
                 </ul>
 
                 <ul className="sm:flex sm:flex-col sm:gap-2">
+                    <li className="sm:list-none"><a className="sm:text-neutralVeryLightGray sm:text-sm sm:decoration-none md:text-lg" hrf="/">Careers</a></li>
+                    <li className="sm:list-none"><a className="sm:text-neutralVeryLightGray sm:text-sm sm:decoration-none md:text-lg" hrf="/">Comunity</a></li>
+                    <li className="sm:list-none"><a className="sm:text-neutralVeryLightGray sm:text-sm sm:decoration-none md:text-lg" hrf="/">Privacy policy</a></li>
                     <li className="sm:list-none"><a className="sm:text-neutralVeryLightGray sm:text-sm sm:decoration-none md:text-lg" hrf="/">Careers</a></li>
                     <li className="sm:list-none"><a className="sm:text-neutralVeryLightGray sm:text-sm sm:decoration-none md:text-lg" hrf="/">Comunity</a></li>
                     <li className="sm:list-none"><a className="sm:text-neutralVeryLightGray sm:text-sm sm:decoration-none md:text-lg" hrf="/">Privacy policy</a></li>
