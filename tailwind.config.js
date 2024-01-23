@@ -45,6 +45,9 @@ module.exports = {
       },
       boxShadow: {
         'red-shadow': ' 0px 4px 8px 0px rgba(243,96,60,1)',
+      },
+      spacing: {
+        '128': '62rem',
       }
     },
   },
