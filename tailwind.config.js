@@ -34,6 +34,7 @@ module.exports = {
         '2lg': '769px',
         'xl': '1025px',
         '2xl': '1201px',
+        'xll': '1350px',
         
       },
       backgroundPosition: {

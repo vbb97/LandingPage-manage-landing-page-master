@@ -10,4 +10,12 @@
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-size: 12px;
-  }
+}
+
+#slider {
+    scroll-snap-type: x mandatory;
+}
+
+#slider::-webkit-scrollbar {
+    display: none;
+}
